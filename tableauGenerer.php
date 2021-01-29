@@ -1,7 +1,7 @@
 <?php
     function creerTableau(): array{
         $empty = [];
-        for($i=0 ; $i <= 10; $i++){
+        for($i=0 ; $i <= 15; $i++){
                $empty[] = $i;
             }
         for ($j=$empty[0]; $j< count($empty); $j++){

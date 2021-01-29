@@ -22,7 +22,7 @@
      creerTableau();*/
     // *************************************************************
     //ajouter un element dans un tableau;
-    /*function creerTableau(): array{
+    function creerTableau(): array{
         $empty = [];
         for($i=0 ; $i <= 10; $i++){
                $empty[] = $i;
@@ -32,7 +32,7 @@
             }
         return $empty;
     }
-    $k = creerTableau();*/
+    $k = creerTableau();
     // ***********************************************************
     // une fonction qui utilise un booléen
     
