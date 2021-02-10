@@ -34,5 +34,5 @@
         }
     }
     
-    $l = resoudreDelta(2, 2, 1);
+    $l = resoudreDelta(1, 2, 1);
 ?>

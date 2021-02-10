@@ -2,6 +2,7 @@
 
     $table = array(2,3,4,8,5,1,6,9,7,10);
 //    **************************************************************************
+// limiter tableau ; create a table empty firstly
     function    limiterTableau($arr){
         $m=0;
         $empty =[];

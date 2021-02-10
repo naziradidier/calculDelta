@@ -3,7 +3,7 @@ $<?php
     $table = array(2,1,3,4,8,5,6,9,7,10);
 //    **************************************************************************
     function    limiterTableau($arr){
-        $m=2;
+        $m=0;
         $empty =[];
         for($f=0 ; $f < $arr[$m]; $f++){
            $empty[] = $arr[$f];
@@ -46,9 +46,6 @@ $<?php
     limiterTableau($trier);
     $j = limiterTableau($trier);
     affichierTableau($j);
-    // affichierTableau($trier);
-    // echo '</br>';
-    // limiterTableau($table);
 
 
 
