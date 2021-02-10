@@ -70,23 +70,23 @@
       </section>
 <!----------------------------------------------------------------------------------------------->
 <!--section formulaire-->
-      <!-- <section class="p-2">
+      <section class="p-2">
         <form action="http://localhost/test/action_page.php"method="post">
           Name: <input type="text" name="fname">
           <button type="submit" class="btn btn-primary" >
             <a style="text-decoration: none; color: beige;">Bouton</a>
           </button>
         </form>
-      </section> -->
+      </section>
 <!------------------------------------------------------------------------------------------------>
-      <!-- <section class="p-2">
+      <section class="p-2">
         <form action="http://localhost/test/action_page.php"method="post">
           Name: <input type="number" name="fname">
           <button type="submit" class="btn btn-primary" >
             <a style="text-decoration: none; color: beige;">Bouton</a>
           </button>
         </form>
-      </section> -->
+      </section>
 <!--------------------------------------------------------------------------------------------------->
       <section class="p-2">
         <form class="form-inline" method="post">
