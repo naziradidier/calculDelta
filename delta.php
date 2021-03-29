@@ -1,10 +1,10 @@
 <?php
-    // $a= 2;
-    // $b = 2; 
-    // $c= 1;
-    //  $x1 = (-$b - sqrt(4))/(2*$a);
-    //  $x2 = (-$b + sqrt(4))/(2*$a);
-    //  echo $x1 . " </br>". $x2;
+    $a= 2;
+    $b = 2; 
+    $c= 1;
+     $x1 = (-$b - sqrt(4))/(2*$a);
+     $x2 = (-$b + sqrt(4))/(2*$a);
+     echo $x1 . " </br>". $x2;
     function calculDelta($a, $b, $c){
         $delta = pow($b, 2) - 4*$a*$c;
 
