@@ -11,7 +11,8 @@
     function calculDelta($a, $b, $c){
         $delta = pow($b, 2) - 4*$a*$c;
 
-        return $delta;
+        return $delta;  
+//         RETURNER LA VALEUR DE DELTA
     }
 
     function resoudreDelta($a, $b, $c){
