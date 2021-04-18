@@ -22,6 +22,7 @@
         if($t > 0){
             $x1 = (-$b - sqrt($t))/(2*$a);
             $x2 = (-$b + sqrt($t))/(2*$a);
+            echo("On obtient deux solutions : ");
             echo($x1);
             echo ("</br>");
             echo($x2);
@@ -29,12 +30,12 @@
         }
         elseif($t ==  0){
             $x = -$b/2*$a;
-            echo " la reponse est: ";
+            echo " L'équation admet une seule solution: ";
             echo($x);
             return $x;
         }
         else {
-            echo " pas de solution";
+            echo " L'équation n'admet pas de solution";
         }
     }
     
